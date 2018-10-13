@@ -1,0 +1,45 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Portal 0.5</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <style>
+    body { 
+      margin: 0; 
+    } 
+    canvas {
+      width: 100%;
+      height: 100% 
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas">
+  </div>
+  <div id="HUD" style="position: absolute; top:0px; right:15px; text-align: right; vertical-aligh: middle;">
+    <div id="title" style="font-size: 40px; color:ff9933">
+      <b><em>Portal 0.5</em></b>
+    </div>
+    <div id="lvl" style="font-size: 30px; color:blue"></div>
+    <div id="timer"></div>
+    <div id="tips" style="right:2px; color: 990033;">Press "H" for Help</div>
+    <div id="instruction" style="display:none; text-align: left; color: 990033;">
+      Move: <em>W/A/S/D or ArrowKeys</em> </br>
+      Jump:_______________<em>Space</em> </br>
+      BluePortal:________<em>LeftClick</em> </br>
+      OrangePortal:____<em>RightClick</em> </br>
+      Use/Interact:_____________<em>E</em> </br>
+    </div>
+  </div>
+  <script src="js/three.min.js"></script>
+  <script src="js/PointerLockControls.js"></script>
+  <script src="js/Stats.js"></script>
+  <script src="js/OBJLoader.js"></script>
+  <script src="js/SourceLoader.js"></script>
+  <script src="js/KeyboardState.js"></script> <!-- By Jerome Etienne: http://jetienne.com/ -->
+  <script src="js/Raycaster.js"></script>
+  <script src="P4.js"></script>
+</div>
+</body>
+</html>
+
